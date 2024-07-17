@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather API</title>
+    <link
+      rel="shortcut icon"
+      href="assets/cloudy-sky-svgrepo-com.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1
+      id="city"
+      style="text-align: center; margin: 50px auto 60px; color: var(--white)"
+    >
+      Bölge İsmi Giriniz.
+    </h1>
+
+    <div class="content">
+      <div class="header">
+        <div class="search-box">
+          <input type="text" placeholder="Şehir Giriniz" id="input" />
+          <button id="button" class="fa-solid fa-magnifying-glass"></button>
+        </div>
+      </div>
+
+      <img src="assets/clear.png" alt="Weather IMG" id="img" />
+
+      <div class="desc">
+        <p style="text-align: center; font-size: 2em" id="temperature">0°C</p>
+        <p>Nem: <span id="humidity">0</span></p>
+        <p>Rüzgar: <span id="wind">0</span></p>
+        <p>Hissedilen Sıcaklık: <span id="feels">0</span></p>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/599f19e6c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
