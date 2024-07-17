@@ -1,5 +1,3 @@
-Tabii, aşağıda Türkçe olarak hazırlanmış README dosyasını bulabilirsiniz.
-
 ---
 
 # Hava Durumu Uygulaması
