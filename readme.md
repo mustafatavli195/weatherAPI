@@ -1,31 +1,29 @@
----
-
-# Hava Durumu Uygulaması
+# Weather Application
 
 ## Genel Bakış
 
-Temel web teknolojileri kullanılarak yapılan ve Open Weather API ile desteklenen hava durumu uygulamam, kullanıcıların bir şehir adı girmesine ve mevcut hava durumu bilgilerini (sıcaklık, nem, rüzgar hızı ve hissedilen sıcaklık) almasına olanak tanır.
+My weather forecast application, built using basic web technologies and supported by the Open Weather API, allows users to enter a city name and retrieve current weather information (temperature, humidity, wind speed, and feels-like temperature).
 
 ## Özellikler
 
-- **Şehir Bazlı Hava Durumu Arama:** Kullanıcılar bir şehir adı girerek mevcut hava durumu koşullarını alabilirler.
-- **Dinamik Hava Durumu İkonları:** Uygulama, mevcut hava durumu koşullarına (açık, bulutlu, yağmurlu, sisli veya karlı) göre farklı ikonlar gösterir.
-- **Duyarlı Tasarım:** Uygulama, farklı ekran boyutlarına uyum sağlar, bu sayede hem masaüstü hem de mobil cihazlarda kullanılabilir.
+- **City-Based Weather Search:** Users can enter a city name to receive current weather conditions.
+- **Dynamic Weather Icons:** The application displays different icons based on current weather conditions (clear, cloudy, rainy, foggy, or snowy).
+- **Responsive Design:** The application adapts to various screen sizes, making it usable on both desktop and mobile devices.
 
 ## Demo
 
 ![Example](assets/weatherApp.png)
 
-## Kurulum
+## Installation
 
-1. Depoyu klonlayın:
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/kullanici-adi/weather-forecast-app.git
    cd weather-forecast-app
    ```
 
-2. Ana dizinde bir `env.json` dosyası oluşturun ve OpenWeatherMap API anahtarınızı ekleyin:
+2. Create an `env.json` file in the root directory and add your OpenWeatherMap API key:
 
    ```json
    {
@@ -33,36 +31,34 @@ Temel web teknolojileri kullanılarak yapılan ve Open Weather API ile desteklen
    }
    ```
 
-3. Uygulamayı görüntülemek için `index.html` dosyasını tarayıcınızda açın.
+3. Open the `index.html` file in your browser to view the application.
 
-## Kullanım
+## Usage
 
-1. Uygulamayı açın.
-2. Şehir adını giriş kutusuna girin.
-3. Hava durumu bilgilerini almak için arama düğmesine tıklayın veya Enter tuşuna basın.
+1. Open the application.
+2. Enter the city name in the input box.
+3. Click the search button or press Enter to retrieve the weather information.
 
-## Kod Yapısı
+## Code Structure
 
 ### HTML
 
-HTML dosyası (`index.html`), uygulamanın yapısını içerir, şehir adı için giriş alanını ve hava durumu bilgilerini görüntülemek için yer tutucuları içerir.
+The HTML file (`index.html`) contains the structure of the application, including the input field for the city name and placeholders for displaying weather information.
 
 ### CSS
 
-CSS dosyası (`style.css`), uygulamanın stilini içerir ve duyarlı ve görsel olarak çekici bir düzen sağlar.
+The CSS file (style.css) provides the styling for the application, ensuring a responsive and visually appealing layout.
 
 ### JavaScript
 
-JavaScript dosyası (`script.js`), OpenWeatherMap API'sinden hava durumu verilerini almak ve alınan verilere göre kullanıcı arayüzünü güncellemek için gerekli mantığı içerir.
+The JavaScript file (script.js) contains the logic for fetching weather data from the OpenWeatherMap API and updating the user interface based on the retrieved data.
 
 ### env.json
 
-`env.json` dosyası, OpenWeatherMap API anahtarınızı içermelidir. Bu dosya, API anahtarını güvenli bir şekilde saklamak ve uygulama içinde erişmek için kullanılır.
+The `env.json` file should contain your OpenWeatherMap API key. This file is used to securely store and access the API key within the application.
 
-## Katkıda Bulunma
+## Contributing
 
-Bu projeye katkıda bulunmak isterseniz, lütfen depoyu çatallayın ve bir özellik dalı kullanın. Çekme istekleri memnuniyetle karşılanır.
+If you would like to contribute to this project, please fork the repository and use a feature branch. Pull requests are welcome.
 
 ---
-
-Bu README dosyasını GitHub projenize ekleyebilirsiniz. README dosyasını daha da özelleştirmek isterseniz, proje ile ilgili ek bilgiler, ekran görüntüleri veya diğer detayları ekleyebilirsiniz.
