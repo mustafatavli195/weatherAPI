@@ -1,10 +1,10 @@
 # Weather Application
 
-## Genel Bakış
+## Overview
 
 My weather forecast application, built using basic web technologies and supported by the Open Weather API, allows users to enter a city name and retrieve current weather information (temperature, humidity, wind speed, and feels-like temperature).
 
-## Özellikler
+## Features
 
 - **City-Based Weather Search:** Users can enter a city name to receive current weather conditions.
 - **Dynamic Weather Icons:** The application displays different icons based on current weather conditions (clear, cloudy, rainy, foggy, or snowy).
